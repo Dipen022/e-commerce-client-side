@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #Classes,#Section1{
+            color: brown;
+        
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: x-large;
+        }
+        .Section1{
+            color: aquamarine;
+            background-color: black;
+            font-style: oblique;
+            font-size: x-large;
+        }
+        .HEllo{
+            color: blueviolet;
+            
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: x-large;
+        }
+        
+
+    </style>
+
+    <style>
+        body,head{ 
+
+            background-color: lightgreen;
+            background-image: url(funky.png);
+            background-repeat: no-repeat;
+            
+            background-position: center;
+            background-attachment: local;
+            /* Above things can be done this way using css shortline background: red no-repeat url(funky.png) fixed;*/
+            padding: 50px;
+
+        }
+        .Font{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .italic{
+            font-style: italic;
+
+        }
+        .normal{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: normal;
+
+        }
+        p{
+            font-size: x-large;
+            font-weight: 300;
+            color: black;
+            text-align: left;
+            
+        }
+        span{
+            font-variant:small-caps;
+            text-align: center;
+        }
+        small{
+            color: rgb(66, 40, 100);
+            text-align: center;
+
+        }
+        .center{
+            text-align: center;
+            text-transform: capitalize;
+
+        }
+        .left{
+            text-align: left;
+            text-decoration: line-through;
+            text-transform: uppercase;
+        }
+        .h1,h2{
+            border-style: double;;
+            border-color: brown;
+            border-width: 10px;
+            border-radius: 40px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            padding-left: 25px;
+            padding-right: 25px;
+            font-size: x-large;
+        }
+        .margin{
+            margin-top: 10px;
+            margin-bottom: 25px;
+            margin-left: 10px;
+            margin-right: 25px;
+
+        }
+        div{
+            height: 100px;
+            width:100px ;
+            border-radius: 50px;
+            position: relative;
+            animation-name: Intro;
+            animation-fill-mode:backwards;
+            background: blue;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-direction: reverse;
+            animation-iteration-count: infinite;
+
+            
+        }
+        @keyframes Intro{
+            from{left: 0px;background-color: blue; }
+            to {left: 300px;}
+        }
+    </style>
+    
+
+
+</head>
+<body>
+    <p>This is Css stlying</p>
+    <span>Hello World</span>
+    <h2>Introduction to CSS</h2>
+
+    <div id="Classes">
+        <h1>I am the Scholar batch</h1>
+        <p>This is Division B</p>
+        <span>
+            This is division C
+        </span>
+        
+
+    </div>
+    <div class="Section1"><br>
+        <span>Hello boysss</span>
+        <small>Pangudddaaa!</small>
+    </div>
+    <div class="HEllo">
+        <p>This is HEllo</p>
+    </div>
+    <p class="Fonts italic">
+        This is our First family of font
+    </p>
+    <p class="Font normal">
+        This is for our normal font
+
+    </p>
+    <small class="center">
+        Welcome to broken world
+    </small><br>
+    <small class="left">
+        Hello everyone
+    </small>
+    <div class="margin">
+        <p>Kya bolteeee bhaisshababbb</p>
+    </div>
+    <div></div>
+    <button onclick="console.log('Button is Clicked')">Click Me</button>
+        <button onclick="alert('Button is clicked')">Click Me for alert</button>
+        <button onclick="document.write('Appeared after the button is clicked')">Click For document.write</button>*\
+       
+    
+
+</body>
+</html>

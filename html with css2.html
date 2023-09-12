@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .flexcontainer{
+            display: flex;
+            border: 2px solid grey;
+            height: 250px;
+            flex-direction: row;
+            /*flex-direction: column-reverse;*/
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            
+
+            
+
+
+
+
+        }
+        .flexitems{
+            background-color: red;
+            border: 2px solid black;
+            margin: 12px;
+            height: 72px;
+            width:72px;
+            align-items: center;
+            padding: 50px;
+            margin:50px;
+            border-radius: 35px;
+            border-top-left-radius: 70px;
+            box-shadow: 2px 2px 20px black;
+            
+
+
+        }
+        .item1{
+            text-shadow: 3px 3px 30px aqua;
+     
+        
+        }
+        p{
+            text-shadow: 2px 1.5px 4px aqua;
+            opacity: 0.5;
+        }
+        img{
+            opacity: 0.4;
+        }
+    .Coloumns{
+        background-color: aqua;
+        height: 200px;
+        width:100px;
+        text-decoration:dotted;
+        text-shadow: 2px 1.5px 4px red ;
+        columns: 200px 2;
+        padding: 40px;
+        
+       
+        transform: skew(40deg,30deg);
+        transform: scale(1 ,2);
+        transform: rotate(100deg);
+        
+        }
+        .Animation{
+            background-color: black;
+            border-radius: 150px;
+            border-color: aqua;
+            height: 150px;
+            width: 150px;
+            position: relative;
+            animation: starttoend;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-iteration-count: 3;
+            animation-fill-mode: backwards;
+
+
+
+        }
+        @keyframes starttoend{
+            from{left:0px; background-color: black;}
+            to{left:300px}
+        }
+
+        
+    </style>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS FLEXBOX </title>
+
+    <style>
+
+    </style>
+
+    <div class="flexcontainer">
+    <div class="flexitems item1">1</div>
+    <div class="flexitems item2">2</div>
+    <div class="flexitems item3">3</div>
+    <div class="flexitems item4">4</div>
+    <p>Hello Boysss</p>
+    <img src="funky.png" alt="sample image">
+</div>
+
+<div class="Coloumns">
+
+
+</div>
+<div class="Animation">
+    
+</div>
+
+
+</head>
+<body>
+
+<button onclick="console.log('Button is Clicked')">Click Me</button>
+    
+
+
+    
+</body>
+</html>
